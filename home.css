@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+.container {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+
+/* Start Landing Page */
+
+.landing-page {
+    position: relative;
+    background-color: #d6d6d600;
+    margin-top: 40px;
+}
+
+.landing-page .header-area {
+    display: flex;
+    position: relative;
+}
+
+.landing-page .header-area .logo {
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 19px;
+    width: 300px;
+    color: #5d5d5d;
+    margin-left: 30px;
+}
+
+.landing-page .header-area .links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: right;
+}
+
+.landing-page .header-area .links li {
+    display: inline-block;
+    margin-left: 30px;
+    color: #5d5d5d;
+    cursor: pointer;
+}
+
+.landing-page .header-area .links li:last-child {
+    border: 0;
+    border-radius: 20px;
+    padding: 10px 18px;
+    color: #FFF;
+    background-color: #234982;
+}
+
+.landing-page .info {
+    width: 35%;
+    float: left;
+    margin-top: 130px;
+    margin-left: 80px;
+}
+
+.landing-page .info h1 {
+    font-size: 44px;
+    margin: 0 0 20px;
+    line-height: 1.4;
+    color: #5d5d5d;
+}
+
+.landing-page .info p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+    color: #5d5d5d;
+}
+
+.landing-page .info button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #234982;
+}
+
+.landing-page .image {
+    width: 50%;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 15px;
+}
+
+.landing-page .image img {
+    max-width: 100%;
+}
+
+.landing-page .image button {
+    border: 0;
+    border-radius: 20px;
+    padding: 12px 30px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    color: #949494;
+    background-color: whitesmoke;
+    border-color: #1f1f1f;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* End Landing Page */
+

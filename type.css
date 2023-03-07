@@ -1,0 +1,29 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+    position: fixed;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    margin: -140px;
+    padding-left: 20px;
+    margin-top: -220px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.container img {
+    width: 400%;
+    height: auto;
+
+}
